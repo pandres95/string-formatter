@@ -1,0 +1,21 @@
+{
+  "name": "string-fomratter",
+  "version": "2.1.1",
+  "main": "main.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "build",
+    "speed",
+    "test",
+    "*.md",
+    "AUTHORS.txt",
+    "Gruntfile.js",
+    "package.json"
+  ],
+  "keywords": [
+    "string",
+    "formatting",
+    "library"
+  ]
+}
