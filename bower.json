@@ -1,7 +1,7 @@
 {
   "name": "string-formatter",
   "version": "0.0.1",
-  "main": "main.js",
+  "main": "string-formatter.js",
   "license": "MIT",
   "ignore": [
     "**/.*",
