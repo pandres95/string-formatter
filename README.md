@@ -6,7 +6,7 @@ Looking how to format string in the way [Node.js](http://nodejs.org/api/util.htm
 Installation
 -----
 
-Download the [`string-formatter.js`](https://raw.githubusercontent.com/pandres95/string-formatter/master/string-formatter.js) file and put it at the top of the scripts chain in the HTML file. Or artenatively, if you use **bower**, you can add it as a dependencies in your `bower.json` file:
+Download the [`string-formatter.js`](https://raw.githubusercontent.com/pandres95/string-formatter/master/string-formatter.js) file and put it at the top of the scripts chain in the HTML file. Or artenatively, if you use **bower**, you can add it as a dependency in your `bower.json` file:
 
 ```json
 {
@@ -26,9 +26,9 @@ console.log("How to {0} this {1}? Just {0} it!".format("use", "library"));
 // --> How to use this library? Just use it!
 ```
 
-Now, if you attempt to format using a parameter number which is lower than 0 or upper than the items' number, it will return undefined:
+Now, if you attempt to format using a parameter number which is lower than 0 or upper than the items' number, it will return the same {#} string:
 
 ```javascript
 console.log("I will feed my {0} with {9} fish and {-1} bodies".format("cat", "fresh", "dead"));
-// --> I will feed my cat with undefined fish and undefined bodies
+// --> I will feed my cat with {9} fish and {-1} bodies
 ```
