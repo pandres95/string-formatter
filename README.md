@@ -6,11 +6,11 @@ Looking how to format string in the way [Node.js](http://nodejs.org/api/util.htm
 Installation
 -----
 
-Download the [`string-formatter.js`](https://raw.githubusercontent.com/pandres95/string-formatter/master/string-formatter.js) file and put it at the top of the scripts chain in the HTML file. Or artenatively, if you use **bower**, you can add it as a dependance in your `bower.json` file:
+Download the [`string-formatter.js`](https://raw.githubusercontent.com/pandres95/string-formatter/master/string-formatter.js) file and put it at the top of the scripts chain in the HTML file. Or artenatively, if you use **bower**, you can add it as a dependencies in your `bower.json` file:
 
 ```json
 {
-  "dependences": {
+  "dependencies": {
     "string-formatter": "0.0.1"
   }
 }
