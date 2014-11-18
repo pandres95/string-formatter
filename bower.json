@@ -5,7 +5,8 @@
   "license": "MIT",
   "ignore": [
     "*.md",
-    "README"
+    "README",
+    "LICENSE"
   ],
   "keywords": [
     "string",
