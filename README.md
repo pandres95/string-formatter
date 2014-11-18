@@ -11,7 +11,7 @@ Download the [`string-formatter.js`](https://raw.githubusercontent.com/pandres95
 ```json
 {
   "dependencies": {
-    "string-formatter": "0.0.1"
+    "string-formatter": "0.0.2"
   }
 }
 ```
