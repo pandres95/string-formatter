@@ -19,13 +19,13 @@ Usage
 Is really simple. Just write a C# formatting-like string, and use the `format` function indicating the parameters to be replaced, the magic is done by this library.
 
 ```javascript
-console.log("How to {0} this {1}? Just {0} it!".format("use", "library"));
+console.log('How to {0} this {1}? Just {0} it!'.format('use', 'library'));
 // --> How to use this library? Just use it!
 ```
 
 Now, if you attempt to format using a parameter number which is lower than 0 or upper than the items' number, it will return the same {#} string:
 
 ```javascript
-console.log("I will feed my {0} with {9} fish and {-1} bodies".format("cat", "fresh", "dead"));
+console.log('I will feed my {0} with {9} fish and {-1} bodies'.format('cat', 'fresh', 'dead'));
 // --> I will feed my cat with {9} fish and {-1} bodies
 ```
