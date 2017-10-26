@@ -9,7 +9,8 @@ Installation
 Download the [`string-formatter.js`](https://raw.githubusercontent.com/pandres95/string-formatter/master/string-formatter.js) file and put it at the top of the scripts chain in the HTML file.
 
 If you use **bower**
-````bash
+
+```bash
 $ bower install --save string-formatter
 ```
 
